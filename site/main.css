@@ -44,15 +44,29 @@ html {
 .simon-button.green {
   background-color: #21BA45;
 }
+.simon-container .simon-button.green:hover
+{
+  box-shadow: 10px 10px 5px #178832;
+}
+
 
 .simon-button.red {
   background-color: #DB2828;
+}.simon-container .simon-button.red:hover{
+  box-shadow: 10px 10px 5px #ac1f1f;
 }
+
 
 .simon-button.yellow {
   background-color: #FBBD08;
 }
+.simon-container .simon-button.yellow:hover{
+  box-shadow: 10px 10px 5px #d1a00d;
+}
 
 .simon-button.blue {
   background-color: #2185D0;
+}
+.simon-container .simon-button.blue:hover{
+  box-shadow: 10px 10px 5px #1966a1;
 }
