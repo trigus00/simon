@@ -41,9 +41,29 @@ html {
   font-family: sans-serif;
 }
 
+
+/* Light up  */
+ .simon-button.green.light{
+  background-color: rgb(2, 122, 22);
+  box-shadow: 0px 0px 0px
+ }
+ .simon-button.red.light{
+  background-color: rgb(107, 11, 11);
+  box-shadow: 0px 0px 0px
+ }
+ .simon-button.yellow.light{
+  background-color: rgb(175, 145, 10);
+  box-shadow: 0px 0px 0px
+ }
+ .simon-button.blue.light{
+  background-color: rgb(5, 12, 77);
+  box-shadow: 0px 0px 0px
+ }
+/* Buttons  */
 .simon-button.green {
   background-color: #21BA45;
-}
+
+  }  
 .simon-container .simon-button.green:hover
 {
   box-shadow: 10px 10px 5px #178832;
